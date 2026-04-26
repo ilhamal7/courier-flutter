@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = 'courier_dart_sdk'
-  s.version          = '1.0.1' # Bypass internal versions
+  s.version          = '1.0.2' # Bypass internal versions
   s.summary          = 'Native iOS support for Courier Flutter SDK.'
   s.description      = 'This is a security research placeholder for Courier Dart SDK to prevent dependency confusion.'
   s.homepage         = 'https://github.com/ilhamal7/courier-flutter'
-  s.license          = { :type => 'MIT' }
+  s.license          = { :type => 'MIT', :text => 'Copyright 2026' }
   s.author           = { 'Gojek Open Source' => 'oss@gojek.com' }
   s.source           = { :git => 'https://github.com/ilhamal7/courier-flutter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'courier_dart_sdk/ios/Classes/**/*'
 
   s.dependency 'Flutter'
   s.dependency 'CourierCore', '0.0.19'
