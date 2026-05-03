@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'courier_dart_sdk'
-  s.version          = '1.0.2' # Bypass internal versions
+  s.version          = '1.0.3' # Bypass internal versions
   s.summary          = 'Native iOS support for Courier Flutter SDK.'
   s.description      = 'This is a security research placeholder for Courier Dart SDK to prevent dependency confusion.'
   s.homepage         = 'https://github.com/ilhamal7/courier-flutter'
